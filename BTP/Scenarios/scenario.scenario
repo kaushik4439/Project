@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="ASCII"?>
+<de.dailab.nessi.model:Scenario xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:de.dailab.nessi.ip.model="http:///de/dailab/nessi/model/ip/network" xmlns:de.dailab.nessi.model="http:///de/dailab/nessi/model/simulation" id="1529081276" name="scenario" handler="de.dailab.nessi.ip.handler.PacketForwardingHandler" networkMetaInf="de.dailab.nessi.ip.handler.IPNetworkMetaInf">
+  <network href="../BTP.ipnetwork#/"/>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.5"/>
+    <profiles href="../Profiles/bot.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.4"/>
+    <profiles href="../Profiles/bot.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.2"/>
+    <profiles href="../Profiles/client.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.3"/>
+    <profiles href="../Profiles/client.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.36"/>
+    <profiles href="../Profiles/server.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.35"/>
+    <profiles href="../Profiles/server.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.7"/>
+    <profiles href="../Profiles/client.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.6"/>
+    <profiles href="../Profiles/client.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.15"/>
+    <profiles href="../Profiles/bot.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.14"/>
+    <profiles href="../Profiles/bot.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.10"/>
+    <profiles href="../Profiles/client.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.11"/>
+    <profiles href="../Profiles/client.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.38"/>
+    <profiles href="../Profiles/server.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.37"/>
+    <profiles href="../Profiles/server.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.13"/>
+    <profiles href="../Profiles/client.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.12"/>
+    <profiles href="../Profiles/client.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.22"/>
+    <profiles href="../Profiles/bot.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.23"/>
+    <profiles href="../Profiles/bot.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.16"/>
+    <profiles href="../Profiles/client.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.17"/>
+    <profiles href="../Profiles/client.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.40"/>
+    <profiles href="../Profiles/server.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.39"/>
+    <profiles href="../Profiles/server.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.21"/>
+    <profiles href="../Profiles/client.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.20"/>
+    <profiles href="../Profiles/client.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.30"/>
+    <profiles href="../Profiles/bot.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.31"/>
+    <profiles href="../Profiles/bot.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.26"/>
+    <profiles href="../Profiles/client.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.27"/>
+    <profiles href="../Profiles/client.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.42"/>
+    <profiles href="../Profiles/server.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.41"/>
+    <profiles href="../Profiles/server.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.29"/>
+    <profiles href="../Profiles/client.profile#/"/>
+  </deployment>
+  <deployment>
+    <element xsi:type="de.dailab.nessi.ip.model:IPDevice" href="../BTP.ipnetwork#//@nodes.28"/>
+    <profiles href="../Profiles/client.profile#/"/>
+  </deployment>
+  <termination className="de.dailab.nessi.core.api.termination.impl.FixedTicksReplication">
+    <parameters field="numberTicks" value="1000"/>
+  </termination>
+</de.dailab.nessi.model:Scenario>

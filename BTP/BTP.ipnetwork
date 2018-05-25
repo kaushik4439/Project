@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="ASCII"?>
+<de.dailab.nessi.ip.model:IPNetwork xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:de.dailab.nessi.ip.model="http:///de/dailab/nessi/model/ip/network" id="1538478292" name="BTP" networkAddress="10.0.0.0" subnetMask="255.0.0.0">
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="7" name="AccessRouter7" subnets="//@subnets.5 //@subnets.2" inEdges="//@edges.2 //@edges.3" outEdges="//@edges.0 //@edges.4 //@edges.30">
+    <networkInterfaces IPv4Address="10.6.0.1" connection="//@edges.0"/>
+    <networkInterfaces IPv4Address="10.6.0.6" connection="//@edges.2"/>
+    <networkInterfaces IPv4Address="10.6.0.8" connection="//@edges.3"/>
+    <networkInterfaces IPv4Address="10.6.0.9" connection="//@edges.4"/>
+    <networkInterfaces IPv4Address="10.6.0.15" connection="//@edges.30"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="8" name="AccessRouter8" subnets="//@subnets.5" inEdges="//@edges.0 //@edges.1" outEdges="//@edges.5 //@edges.6 //@edges.31">
+    <networkInterfaces IPv4Address="10.6.0.2" connection="//@edges.0"/>
+    <networkInterfaces IPv4Address="10.6.0.4" connection="//@edges.1"/>
+    <networkInterfaces IPv4Address="10.6.0.11" connection="//@edges.5"/>
+    <networkInterfaces IPv4Address="10.6.0.13" connection="//@edges.6"/>
+    <networkInterfaces IPv4Address="10.6.0.17" connection="//@edges.31"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="9" name="Client9" subnets="//@subnets.5" inEdges="//@edges.5">
+    <networkInterfaces IPv4Address="10.6.0.12" connection="//@edges.5"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="10" name="Client10" subnets="//@subnets.5" inEdges="//@edges.6">
+    <networkInterfaces IPv4Address="10.6.0.14" connection="//@edges.6"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="11" name="Bot11" description="Simple Device with Bot Icons" subnets="//@subnets.5" outEdges="//@edges.1">
+    <networkInterfaces IPv4Address="10.6.0.3" connection="//@edges.1"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="12" name="Bot12" description="Simple Device with Bot Icons" subnets="//@subnets.5" outEdges="//@edges.2">
+    <networkInterfaces IPv4Address="10.6.0.5" connection="//@edges.2"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="13" name="Client13" subnets="//@subnets.5" outEdges="//@edges.3">
+    <networkInterfaces IPv4Address="10.6.0.7" connection="//@edges.3"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="14" name="Client14" subnets="//@subnets.5" inEdges="//@edges.4">
+    <networkInterfaces IPv4Address="10.6.0.10" connection="//@edges.4"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="22" name="AccessRouter22" subnets="//@subnets.6" inEdges="//@edges.11 //@edges.12" outEdges="//@edges.7 //@edges.13 //@edges.32">
+    <networkInterfaces IPv4Address="10.7.0.1" connection="//@edges.7"/>
+    <networkInterfaces IPv4Address="10.7.0.10" connection="//@edges.11"/>
+    <networkInterfaces IPv4Address="10.7.0.12" connection="//@edges.12"/>
+    <networkInterfaces IPv4Address="10.7.0.13" connection="//@edges.13"/>
+    <networkInterfaces IPv4Address="10.7.0.15" connection="//@edges.32"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="23" name="AccessRouter23" subnets="//@subnets.6 //@subnets.2" inEdges="//@edges.7 //@edges.8" outEdges="//@edges.9 //@edges.10 //@edges.33">
+    <networkInterfaces IPv4Address="10.7.0.2" connection="//@edges.7"/>
+    <networkInterfaces IPv4Address="10.7.0.4" connection="//@edges.8"/>
+    <networkInterfaces IPv4Address="10.7.0.5" connection="//@edges.9"/>
+    <networkInterfaces IPv4Address="10.7.0.7" connection="//@edges.10"/>
+    <networkInterfaces IPv4Address="10.7.0.17" connection="//@edges.33"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="24" name="Client24" subnets="//@subnets.6" inEdges="//@edges.9">
+    <networkInterfaces IPv4Address="10.7.0.6" connection="//@edges.9"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="25" name="Client25" subnets="//@subnets.6" inEdges="//@edges.10">
+    <networkInterfaces IPv4Address="10.7.0.8" connection="//@edges.10"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="26" name="Client26" subnets="//@subnets.6" outEdges="//@edges.12">
+    <networkInterfaces IPv4Address="10.7.0.11" connection="//@edges.12"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="27" name="Client27" subnets="//@subnets.6" inEdges="//@edges.13">
+    <networkInterfaces IPv4Address="10.7.0.14" connection="//@edges.13"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="28" name="Bot28" description="Simple Device with Bot Icons" subnets="//@subnets.6" outEdges="//@edges.8">
+    <networkInterfaces IPv4Address="10.7.0.3" connection="//@edges.8"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="29" name="Bot29" description="Simple Device with Bot Icons" subnets="//@subnets.6" outEdges="//@edges.11">
+    <networkInterfaces IPv4Address="10.7.0.9" connection="//@edges.11"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="37" name="Client37" subnets="//@subnets.3" outEdges="//@edges.19">
+    <networkInterfaces IPv4Address="10.4.0.11" connection="//@edges.19"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="38" name="Client38" subnets="//@subnets.3" inEdges="//@edges.20">
+    <networkInterfaces IPv4Address="10.4.0.14" connection="//@edges.20"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="39" name="AccessRouter39" subnets="//@subnets.3" inEdges="//@edges.14 //@edges.15 //@edges.19" outEdges="//@edges.20 //@edges.34">
+    <networkInterfaces IPv4Address="10.4.0.2" connection="//@edges.14"/>
+    <networkInterfaces IPv4Address="10.4.0.4" connection="//@edges.15"/>
+    <networkInterfaces IPv4Address="10.4.0.12" connection="//@edges.19"/>
+    <networkInterfaces IPv4Address="10.4.0.13" connection="//@edges.20"/>
+    <networkInterfaces IPv4Address="10.4.0.15" connection="//@edges.34"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="40" name="AccessRouter40" subnets="//@subnets.3 //@subnets.1" inEdges="//@edges.16 //@edges.17" outEdges="//@edges.14 //@edges.18 //@edges.35">
+    <networkInterfaces IPv4Address="10.4.0.1" connection="//@edges.14"/>
+    <networkInterfaces IPv4Address="10.4.0.6" connection="//@edges.16"/>
+    <networkInterfaces IPv4Address="10.4.0.8" connection="//@edges.17"/>
+    <networkInterfaces IPv4Address="10.4.0.9" connection="//@edges.18"/>
+    <networkInterfaces IPv4Address="10.4.0.17" connection="//@edges.35"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="41" name="Client41" subnets="//@subnets.3" outEdges="//@edges.17">
+    <networkInterfaces IPv4Address="10.4.0.7" connection="//@edges.17"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="42" name="Client42" subnets="//@subnets.3" inEdges="//@edges.18">
+    <networkInterfaces IPv4Address="10.4.0.10" connection="//@edges.18"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="43" name="Bot43" description="Simple Device with Bot Icons" subnets="//@subnets.3" outEdges="//@edges.16">
+    <networkInterfaces IPv4Address="10.4.0.5" connection="//@edges.16"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="44" name="Bot44" description="Simple Device with Bot Icons" subnets="//@subnets.3" outEdges="//@edges.15">
+    <networkInterfaces IPv4Address="10.4.0.3" connection="//@edges.15"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="52" name="AccessRouter52" subnets="//@subnets.4" inEdges="//@edges.25 //@edges.26" outEdges="//@edges.21 //@edges.27 //@edges.37">
+    <networkInterfaces IPv4Address="10.5.0.1" connection="//@edges.21"/>
+    <networkInterfaces IPv4Address="10.5.0.10" connection="//@edges.25"/>
+    <networkInterfaces IPv4Address="10.5.0.12" connection="//@edges.26"/>
+    <networkInterfaces IPv4Address="10.5.0.13" connection="//@edges.27"/>
+    <networkInterfaces IPv4Address="10.5.0.17" connection="//@edges.37"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="53" name="AccessRouter53" subnets="//@subnets.4 //@subnets.1" inEdges="//@edges.21 //@edges.24" outEdges="//@edges.22 //@edges.23 //@edges.36">
+    <networkInterfaces IPv4Address="10.5.0.2" connection="//@edges.21"/>
+    <networkInterfaces IPv4Address="10.5.0.3" connection="//@edges.22"/>
+    <networkInterfaces IPv4Address="10.5.0.5" connection="//@edges.23"/>
+    <networkInterfaces IPv4Address="10.5.0.8" connection="//@edges.24"/>
+    <networkInterfaces IPv4Address="10.5.0.15" connection="//@edges.36"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="54" name="Client54" subnets="//@subnets.4" inEdges="//@edges.22">
+    <networkInterfaces IPv4Address="10.5.0.4" connection="//@edges.22"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="55" name="Client55" subnets="//@subnets.4" inEdges="//@edges.23">
+    <networkInterfaces IPv4Address="10.5.0.6" connection="//@edges.23"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="56" name="Client56" subnets="//@subnets.4" outEdges="//@edges.26">
+    <networkInterfaces IPv4Address="10.5.0.11" connection="//@edges.26"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="57" name="Client57" subnets="//@subnets.4" inEdges="//@edges.27">
+    <networkInterfaces IPv4Address="10.5.0.14" connection="//@edges.27"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="58" name="Bot58" description="Simple Device with Bot Icons" subnets="//@subnets.4" outEdges="//@edges.25">
+    <networkInterfaces IPv4Address="10.5.0.9" connection="//@edges.25"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="59" name="Bot59" description="Simple Device with Bot Icons" subnets="//@subnets.4" outEdges="//@edges.24">
+    <networkInterfaces IPv4Address="10.5.0.7" connection="//@edges.24"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="67" name="AccessRouter67" subnets="//@subnets.0 //@subnets.2" outEdges="//@edges.28">
+    <networkInterfaces IPv4Address="10.1.0.1" connection="//@edges.28"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="68" name="AccessRouter68" subnets="//@subnets.0 //@subnets.1" inEdges="//@edges.29">
+    <networkInterfaces IPv4Address="10.1.0.4" connection="//@edges.29"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="69" name="CoreRouter69" subnets="//@subnets.0" inEdges="//@edges.28" outEdges="//@edges.29">
+    <networkInterfaces IPv4Address="10.1.0.2" connection="//@edges.28"/>
+    <networkInterfaces IPv4Address="10.1.0.3" connection="//@edges.29"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="72" name="Server72" subnets="//@subnets.5" inEdges="//@edges.30">
+    <networkInterfaces IPv4Address="10.6.0.16" connection="//@edges.30"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="74" name="Server74" subnets="//@subnets.5" inEdges="//@edges.31">
+    <networkInterfaces IPv4Address="10.6.0.18" connection="//@edges.31"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="76" name="Server76" subnets="//@subnets.6" inEdges="//@edges.32">
+    <networkInterfaces IPv4Address="10.7.0.16" connection="//@edges.32"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="77" name="Server77" subnets="//@subnets.6" inEdges="//@edges.33">
+    <networkInterfaces IPv4Address="10.7.0.18" connection="//@edges.33"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="80" name="Server80" subnets="//@subnets.3" inEdges="//@edges.35">
+    <networkInterfaces IPv4Address="10.4.0.18" connection="//@edges.35"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="81" name="Server81" subnets="//@subnets.3" inEdges="//@edges.34">
+    <networkInterfaces IPv4Address="10.4.0.16" connection="//@edges.34"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="84" name="Server84" subnets="//@subnets.4" inEdges="//@edges.37">
+    <networkInterfaces IPv4Address="10.5.0.18" connection="//@edges.37"/>
+  </nodes>
+  <nodes xsi:type="de.dailab.nessi.ip.model:IPDevice" id="85" name="Server85" subnets="//@subnets.4" inEdges="//@edges.36">
+    <networkInterfaces IPv4Address="10.5.0.16" connection="//@edges.36"/>
+  </nodes>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="15" name="AccessRouter7 - AccessRouter8" subnets="//@subnets.5" source="//@nodes.0" dest="//@nodes.1" bandwidth="125000000" sourceNetworkInterface="//@nodes.0/@networkInterfaces.0" destNetworkInterface="//@nodes.1/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="16" name="Bot11 - AccessRouter8" subnets="//@subnets.5" source="//@nodes.4" dest="//@nodes.1" bandwidth="125000000" sourceNetworkInterface="//@nodes.4/@networkInterfaces.0" destNetworkInterface="//@nodes.1/@networkInterfaces.1"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="17" name="Bot12 - AccessRouter7" subnets="//@subnets.5" source="//@nodes.5" dest="//@nodes.0" bandwidth="125000000" sourceNetworkInterface="//@nodes.5/@networkInterfaces.0" destNetworkInterface="//@nodes.0/@networkInterfaces.1"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="18" name="Client13 - AccessRouter7" subnets="//@subnets.5" source="//@nodes.6" dest="//@nodes.0" bandwidth="125000000" sourceNetworkInterface="//@nodes.6/@networkInterfaces.0" destNetworkInterface="//@nodes.0/@networkInterfaces.2"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="19" name="AccessRouter7 - Client14" subnets="//@subnets.5" source="//@nodes.0" dest="//@nodes.7" bandwidth="125000000" sourceNetworkInterface="//@nodes.0/@networkInterfaces.3" destNetworkInterface="//@nodes.7/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="20" name="AccessRouter8 - Client9" subnets="//@subnets.5" source="//@nodes.1" dest="//@nodes.2" bandwidth="125000000" sourceNetworkInterface="//@nodes.1/@networkInterfaces.2" destNetworkInterface="//@nodes.2/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="21" name="AccessRouter8 - Client10" subnets="//@subnets.5" source="//@nodes.1" dest="//@nodes.3" bandwidth="125000000" sourceNetworkInterface="//@nodes.1/@networkInterfaces.3" destNetworkInterface="//@nodes.3/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="30" name="AccessRouter22 - AccessRouter23" subnets="//@subnets.6" source="//@nodes.8" dest="//@nodes.9" bandwidth="125000000" sourceNetworkInterface="//@nodes.8/@networkInterfaces.0" destNetworkInterface="//@nodes.9/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="31" name="Bot28 - AccessRouter23" subnets="//@subnets.6" source="//@nodes.14" dest="//@nodes.9" bandwidth="125000000" sourceNetworkInterface="//@nodes.14/@networkInterfaces.0" destNetworkInterface="//@nodes.9/@networkInterfaces.1"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="32" name="AccessRouter23 - Client24" subnets="//@subnets.6" source="//@nodes.9" dest="//@nodes.10" bandwidth="125000000" sourceNetworkInterface="//@nodes.9/@networkInterfaces.2" destNetworkInterface="//@nodes.10/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="33" name="AccessRouter23 - Client25" subnets="//@subnets.6" source="//@nodes.9" dest="//@nodes.11" bandwidth="125000000" sourceNetworkInterface="//@nodes.9/@networkInterfaces.3" destNetworkInterface="//@nodes.11/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="34" name="Bot29 - AccessRouter22" subnets="//@subnets.6" source="//@nodes.15" dest="//@nodes.8" bandwidth="125000000" sourceNetworkInterface="//@nodes.15/@networkInterfaces.0" destNetworkInterface="//@nodes.8/@networkInterfaces.1"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="35" name="Client26 - AccessRouter22" subnets="//@subnets.6" source="//@nodes.12" dest="//@nodes.8" bandwidth="125000000" sourceNetworkInterface="//@nodes.12/@networkInterfaces.0" destNetworkInterface="//@nodes.8/@networkInterfaces.2"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="36" name="AccessRouter22 - Client27" subnets="//@subnets.6" source="//@nodes.8" dest="//@nodes.13" bandwidth="125000000" sourceNetworkInterface="//@nodes.8/@networkInterfaces.3" destNetworkInterface="//@nodes.13/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="45" name="AccessRouter40 - AccessRouter39" subnets="//@subnets.3" source="//@nodes.19" dest="//@nodes.18" bandwidth="125000000" sourceNetworkInterface="//@nodes.19/@networkInterfaces.0" destNetworkInterface="//@nodes.18/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="46" name="Bot44 - AccessRouter39" subnets="//@subnets.3" source="//@nodes.23" dest="//@nodes.18" bandwidth="125000000" sourceNetworkInterface="//@nodes.23/@networkInterfaces.0" destNetworkInterface="//@nodes.18/@networkInterfaces.1"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="47" name="Bot43 - AccessRouter40" subnets="//@subnets.3" source="//@nodes.22" dest="//@nodes.19" bandwidth="125000000" sourceNetworkInterface="//@nodes.22/@networkInterfaces.0" destNetworkInterface="//@nodes.19/@networkInterfaces.1"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="48" name="Client41 - AccessRouter40" subnets="//@subnets.3" source="//@nodes.20" dest="//@nodes.19" bandwidth="125000000" sourceNetworkInterface="//@nodes.20/@networkInterfaces.0" destNetworkInterface="//@nodes.19/@networkInterfaces.2"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="49" name="AccessRouter40 - Client42" subnets="//@subnets.3" source="//@nodes.19" dest="//@nodes.21" bandwidth="125000000" sourceNetworkInterface="//@nodes.19/@networkInterfaces.3" destNetworkInterface="//@nodes.21/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="50" name="Client37 - AccessRouter39" subnets="//@subnets.3" source="//@nodes.16" dest="//@nodes.18" bandwidth="125000000" sourceNetworkInterface="//@nodes.16/@networkInterfaces.0" destNetworkInterface="//@nodes.18/@networkInterfaces.2"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="51" name="AccessRouter39 - Client38" subnets="//@subnets.3" source="//@nodes.18" dest="//@nodes.17" bandwidth="125000000" sourceNetworkInterface="//@nodes.18/@networkInterfaces.3" destNetworkInterface="//@nodes.17/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="60" name="AccessRouter52 - AccessRouter53" subnets="//@subnets.4" source="//@nodes.24" dest="//@nodes.25" bandwidth="125000000" sourceNetworkInterface="//@nodes.24/@networkInterfaces.0" destNetworkInterface="//@nodes.25/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="61" name="AccessRouter53 - Client54" subnets="//@subnets.4" source="//@nodes.25" dest="//@nodes.26" bandwidth="125000000" sourceNetworkInterface="//@nodes.25/@networkInterfaces.1" destNetworkInterface="//@nodes.26/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="62" name="AccessRouter53 - Client55" subnets="//@subnets.4" source="//@nodes.25" dest="//@nodes.27" bandwidth="125000000" sourceNetworkInterface="//@nodes.25/@networkInterfaces.2" destNetworkInterface="//@nodes.27/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="63" name="Bot59 - AccessRouter53" subnets="//@subnets.4" source="//@nodes.31" dest="//@nodes.25" bandwidth="125000000" sourceNetworkInterface="//@nodes.31/@networkInterfaces.0" destNetworkInterface="//@nodes.25/@networkInterfaces.3"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="64" name="Bot58 - AccessRouter52" subnets="//@subnets.4" source="//@nodes.30" dest="//@nodes.24" bandwidth="125000000" sourceNetworkInterface="//@nodes.30/@networkInterfaces.0" destNetworkInterface="//@nodes.24/@networkInterfaces.1"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="65" name="Client56 - AccessRouter52" subnets="//@subnets.4" source="//@nodes.28" dest="//@nodes.24" bandwidth="125000000" sourceNetworkInterface="//@nodes.28/@networkInterfaces.0" destNetworkInterface="//@nodes.24/@networkInterfaces.2"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="66" name="AccessRouter52 - Client57" subnets="//@subnets.4" source="//@nodes.24" dest="//@nodes.29" bandwidth="125000000" sourceNetworkInterface="//@nodes.24/@networkInterfaces.3" destNetworkInterface="//@nodes.29/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="70" name="AccessRouter67 - CoreRouter69" subnets="//@subnets.0" source="//@nodes.32" dest="//@nodes.34" bandwidth="125000000" sourceNetworkInterface="//@nodes.32/@networkInterfaces.0" destNetworkInterface="//@nodes.34/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="71" name="CoreRouter69 - AccessRouter68" subnets="//@subnets.0" source="//@nodes.34" dest="//@nodes.33" bandwidth="125000000" sourceNetworkInterface="//@nodes.34/@networkInterfaces.1" destNetworkInterface="//@nodes.33/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="73" name="AccessRouter7 - Server72" subnets="//@subnets.5" source="//@nodes.0" dest="//@nodes.35" bandwidth="125000000" sourceNetworkInterface="//@nodes.0/@networkInterfaces.4" destNetworkInterface="//@nodes.35/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="75" name="AccessRouter8 - Server74" subnets="//@subnets.5" source="//@nodes.1" dest="//@nodes.36" bandwidth="125000000" sourceNetworkInterface="//@nodes.1/@networkInterfaces.4" destNetworkInterface="//@nodes.36/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="78" name="AccessRouter22 - Server76" subnets="//@subnets.6" source="//@nodes.8" dest="//@nodes.37" bandwidth="125000000" sourceNetworkInterface="//@nodes.8/@networkInterfaces.4" destNetworkInterface="//@nodes.37/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="79" name="AccessRouter23 - Server77" subnets="//@subnets.6" source="//@nodes.9" dest="//@nodes.38" bandwidth="125000000" sourceNetworkInterface="//@nodes.9/@networkInterfaces.4" destNetworkInterface="//@nodes.38/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="82" name="AccessRouter39 - Server81" subnets="//@subnets.3" source="//@nodes.18" dest="//@nodes.40" bandwidth="125000000" sourceNetworkInterface="//@nodes.18/@networkInterfaces.4" destNetworkInterface="//@nodes.40/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="83" name="AccessRouter40 - Server80" subnets="//@subnets.3" source="//@nodes.19" dest="//@nodes.39" bandwidth="125000000" sourceNetworkInterface="//@nodes.19/@networkInterfaces.4" destNetworkInterface="//@nodes.39/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="86" name="AccessRouter53 - Server85" subnets="//@subnets.4" source="//@nodes.25" dest="//@nodes.42" bandwidth="125000000" sourceNetworkInterface="//@nodes.25/@networkInterfaces.4" destNetworkInterface="//@nodes.42/@networkInterfaces.0"/>
+  <edges xsi:type="de.dailab.nessi.ip.model:IPLink" id="87" name="AccessRouter52 - Server84" subnets="//@subnets.4" source="//@nodes.24" dest="//@nodes.41" bandwidth="125000000" sourceNetworkInterface="//@nodes.24/@networkInterfaces.4" destNetworkInterface="//@nodes.41/@networkInterfaces.0"/>
+  <subnets xsi:type="de.dailab.nessi.ip.model:IPSubnet" name="Subnet0" nodes="//@nodes.32 //@nodes.33 //@nodes.34" edges="//@edges.28 //@edges.29" type="Core" networkAddress="10.1.0.0" subnetMask="255.255.0.0"/>
+  <subnets xsi:type="de.dailab.nessi.ip.model:IPSubnet" id="1" name="Subnet1" nodes="//@nodes.25 //@nodes.19 //@nodes.33" type="Distribution" networkAddress="10.2.0.0" subnetMask="255.255.0.0"/>
+  <subnets xsi:type="de.dailab.nessi.ip.model:IPSubnet" id="2" name="Subnet2" nodes="//@nodes.0 //@nodes.9 //@nodes.32" type="Distribution" networkAddress="10.3.0.0" subnetMask="255.255.0.0"/>
+  <subnets xsi:type="de.dailab.nessi.ip.model:IPSubnet" id="3" name="Subnet3" nodes="//@nodes.16 //@nodes.17 //@nodes.18 //@nodes.19 //@nodes.20 //@nodes.21 //@nodes.22 //@nodes.23 //@nodes.39 //@nodes.40" edges="//@edges.14 //@edges.15 //@edges.16 //@edges.17 //@edges.18 //@edges.19 //@edges.20 //@edges.34 //@edges.35" networkAddress="10.4.0.0" subnetMask="255.255.0.0"/>
+  <subnets xsi:type="de.dailab.nessi.ip.model:IPSubnet" id="4" name="Subnet4" nodes="//@nodes.24 //@nodes.25 //@nodes.26 //@nodes.27 //@nodes.28 //@nodes.29 //@nodes.30 //@nodes.31 //@nodes.41 //@nodes.42" edges="//@edges.21 //@edges.22 //@edges.23 //@edges.24 //@edges.25 //@edges.26 //@edges.27 //@edges.36 //@edges.37" networkAddress="10.5.0.0" subnetMask="255.255.0.0"/>
+  <subnets xsi:type="de.dailab.nessi.ip.model:IPSubnet" id="5" name="Subnet5" nodes="//@nodes.0 //@nodes.1 //@nodes.2 //@nodes.3 //@nodes.4 //@nodes.5 //@nodes.6 //@nodes.7 //@nodes.35 //@nodes.36" edges="//@edges.0 //@edges.1 //@edges.2 //@edges.3 //@edges.4 //@edges.5 //@edges.6 //@edges.30 //@edges.31" networkAddress="10.6.0.0" subnetMask="255.255.0.0"/>
+  <subnets xsi:type="de.dailab.nessi.ip.model:IPSubnet" id="6" name="Subnet6" nodes="//@nodes.8 //@nodes.9 //@nodes.10 //@nodes.11 //@nodes.12 //@nodes.13 //@nodes.14 //@nodes.15 //@nodes.37 //@nodes.38" edges="//@edges.7 //@edges.8 //@edges.9 //@edges.10 //@edges.11 //@edges.12 //@edges.13 //@edges.32 //@edges.33" networkAddress="10.7.0.0" subnetMask="255.255.0.0"/>
+</de.dailab.nessi.ip.model:IPNetwork>

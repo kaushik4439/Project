@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<de.dailab.nessi.model:Simulation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:de.dailab.nessi.model="http:///de/dailab/nessi/model/simulation" id="1529904836" name="session" recorderConfig="Recording/Examples/default_recorder.xml">
+  <scenarios href="../Scenarios/scenario.scenario#/"/>
+  <termination className="de.dailab.nessi.core.api.termination.impl.FixedRunsSimulation">
+    <parameters field="numberRep" value="1"/>
+  </termination>
+</de.dailab.nessi.model:Simulation>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    Copyright 2008 DAI-Labor, Deutsche Telekom Laboratories
+    
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+    
+    http://www.apache.org/licenses/LICENSE-2.0
+    
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/'>
+
+  <!-- Appender that does not record anything -->
+  <appender name="NullAppender" class="org.apache.log4j.varia.NullAppender" />
+
+  <!-- Appender which loggers should refer to when they want to record event to NeSSis Database -->
+  <appender name="DBAppender" class="de.dailab.nessi.hibernate.appender.DBAppender">
+  	<!-- ENABLE THIS IF BACKEND SHOULD USE OTHER SETTING THAN GUI
+  	<param name="driver" value="com.mysql.jdbc.Driver"/>
+	<param name="url" value="jdbc:mysql://localhost/"/>
+	<param name="schema" value="nessi2"/>
+	<param name="user" value="username"/>
+	<param name="password" value="password"/>
+  	 -->
+  </appender>
+
+  <!-- General logging for NeSSi2 components -->
+  <logger name="de.dailab.nessi" additivity="false">
+    <level value="DEBUG"/>
+    <appender-ref ref="DBAppender"/>
+  </logger>
+
+  <!-- Logging for packets send over a link -->
+  <logger name="de.dailab.nessi.network.DummyConnection" additivity="false">
+    <level value="DEBUG"/>
+    <appender-ref ref="DBAppender"/>
+  </logger>
+
+  <!-- Logging for packets sent from a device -->
+  <logger name="de.dailab.nessi.layer.InternetLayer" additivity="false">
+    <level value="DEBUG"/>
+    <appender-ref ref="DBAppender"/>
+  </logger>
+
+  <!-- Save the network in DB at the beginning of simulation -->
+  <logger name="NetworkLogger" additivity="false">
+    <level value="DEBUG"/>
+    <appender-ref ref="DBAppender"/>
+  </logger>
+
+</log4j:configuration>
