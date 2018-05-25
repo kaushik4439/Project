@@ -1,0 +1,51 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}A survey on cloud computing}{1}
+\contentsline {section}{\numberline {1.1}Introduction}{1}
+\contentsline {section}{\numberline {1.2}Cloud service delivery models}{2}
+\contentsline {section}{\numberline {1.3}Cloud deployed models}{4}
+\contentsline {section}{\numberline {1.4}Cloud computing basic component}{5}
+\contentsline {chapter}{\numberline {2}Threats To Security In Cloud Computing}{6}
+\contentsline {section}{\numberline {2.1}Introduction}{6}
+\contentsline {section}{\numberline {2.2}Basic Security}{6}
+\contentsline {section}{\numberline {2.3}Network Level Security}{7}
+\contentsline {section}{\numberline {2.4}Application Level Security}{8}
+\contentsline {chapter}{\numberline {3}Ensuring Security Against The Various Types Of Attacks}{10}
+\contentsline {section}{\numberline {3.1}Introduction}{10}
+\contentsline {section}{\numberline {3.2}Man In Middle attacks :}{10}
+\contentsline {section}{\numberline {3.3}DoS and DDoS attacks : }{11}
+\contentsline {section}{\numberline {3.4}IP spoofing attacks: }{11}
+\contentsline {section}{\numberline {3.5}Hypervisor attacks: }{11}
+\contentsline {chapter}{\numberline {4}Simulation Of DDOS attack Using Nessi2}{12}
+\contentsline {section}{\numberline {4.1}Features Of Nessi2}{12}
+\contentsline {subsection}{\numberline {4.1.1}Traffic Generation}{12}
+\contentsline {subsection}{\numberline {4.1.2}Protocol Stack and Socket-based API}{12}
+\contentsline {subsection}{\numberline {4.1.3}Security Features}{13}
+\contentsline {section}{\numberline {4.2}Nessi2 Advantages}{13}
+\contentsline {section}{\numberline {4.3}Components Of Nessi2}{13}
+\contentsline {subsection}{\numberline {4.3.1}Graphical User Interface}{13}
+\contentsline {subsection}{\numberline {4.3.2}Simulation Backend}{15}
+\contentsline {subsection}{\numberline {4.3.3}Database}{16}
+\contentsline {section}{\numberline {4.4}How we created DDOS simulation}{16}
+\contentsline {subsection}{\numberline {4.4.1}Create Nessi2 Project}{16}
+\contentsline {subsection}{\numberline {4.4.2}create Network}{16}
+\contentsline {subsection}{\numberline {4.4.3}Create Profile}{18}
+\contentsline {subsection}{\numberline {4.4.4}Create Scenario}{18}
+\contentsline {subsection}{\numberline {4.4.5}Create Simulation}{18}
+\contentsline {subsection}{\numberline {4.4.6}Recorder Configurations}{18}
+\contentsline {section}{\numberline {4.5}Results and simulation}{19}
+\contentsline {chapter}{\numberline {5}Introduction to fog computing}{21}
+\contentsline {section}{\numberline {5.1}what is fog computing}{21}
+\contentsline {section}{\numberline {5.2}Architecture of fog computing environment}{21}
+\contentsline {section}{\numberline {5.3}security in fog computing}{22}
+\contentsline {chapter}{\numberline {6}Introduction to Deep learning}{24}
+\contentsline {section}{\numberline {6.1}security using Deep learning}{24}
+\contentsline {chapter}{\numberline {7}Attack Detection using deep learning}{26}
+\contentsline {section}{\numberline {7.1}Our Work}{26}
+\contentsline {section}{\numberline {7.2}Dataset description}{26}
+\contentsline {section}{\numberline {7.3}Our Approach}{27}
+\contentsline {section}{\numberline {7.4}Accuracy of our model :}{30}
+\contentsline {chapter}{\numberline {8}Conclusions and Future Work}{32}
+\contentsline {section}{\numberline {8.1}conclusion}{32}
+\contentsline {section}{\numberline {8.2}Scope of further work}{32}
+{\@tempskipb 3.0ex plus 1pt\relax }
+\contentsline {chapter}{{Bibliography}}{33}

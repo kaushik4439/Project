@@ -1,0 +1,110 @@
+%  $Description: Thesis
+%  $Author: xxx $
+%  $Date: xxx  $
+%  $Revision: 0.0 $
+
+\documentclass[11pt]{book}
+\usepackage{LNMIIT_BTP}
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{latexsym}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{algorithm2e}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\graphicspath{{Figures/}{./}} % To include images in other directories
+%\usepackage{setspace}
+
+\long\def\symbolfootnote[#1]#2{\begingroup%
+\def\thefootnote{\fnsymbol{footnote}}\footnote[#1]{#2}\endgroup}
+\renewcommand{\baselinestretch}{1.2}
+\onecolumn
+%--------------------------------------------------------
+
+\begin{document}
+\pagenumbering{roman}
+
+%%Cover Page
+ 
+
+%% TITLE PAGE
+ \input{titlePage.tex}
+
+
+%% CERTIFICATE PAGE
+\input{certificate.tex}
+
+
+%\mastersthesis
+%\renewcommand{\baselinestretch}{1.5}
+
+% ACKNOWLEDGEMENTS PAGE
+\chapter*{Acknowledgments}
+\label{ch:ack}
+\input{acknowledgements.tex}
+
+% Abstract
+\chapter*{Abstract}
+\label{ch:abst}
+\input{abstract.tex}
+
+
+%--------------------------------------------------------
+\tableofcontents
+%\listoffigures
+%\listoftables
+
+%----------------------------------------------------
+\chapter{A survey on cloud computing}
+\input{Chapter1.tex}
+
+\chapter{Threats To Security In Cloud Computing}
+\label{ch:Threats}
+\input{Chapter2.tex}
+
+\chapter{Ensuring Security Against The Various Types Of Attacks}
+\label{ch:Mitigations}
+\input{Chapter3.tex}
+
+\chapter{Simulation Of DDOS attack Using Nessi2}
+\label{ch:result}
+\input{Chapter4.tex}
+
+\chapter{Introduction to fog computing}
+\label{ch:fog computing}
+\input{Chapter5.tex}
+
+\chapter{Introduction to Deep learning}
+\label{ch:deep learning}
+\input{Chapter6.tex}
+
+\chapter{Attack Detection using deep learning}
+\label{ch:Attack deep learning}
+\input{Chapter7.tex}
+
+\chapter{Conclusions and Future Work}
+\label{ch:conclude}
+\input{conclusion.tex}
+
+
+%--------------------------------------------------------
+
+%--------------------------------------------------------
+%%% Optional appendix
+%\appendix
+%\chapter{}
+%\label{}
+
+%--------------------------------------------------------
+% Recommended 'Related Publication'
+%--------------------------------------------------------
+
+\bibliographystyle{latex8}
+\bibliography{sampleBib} 
+
+\end{document}

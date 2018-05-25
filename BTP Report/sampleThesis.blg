@@ -1,0 +1,13 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: sampleThesis.aux
+The style file: latex8.bst
+I found no \citation commands---while reading file sampleThesis.aux
+Database file #1: sampleBib.bib
+I was expecting a `,' or a `}'---line 2 of file sampleBib.bib
+ :   title={A 
+ :            Simulation Model for the Analysis of DDoS Amplification Attacks},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 7 of file sampleBib.bib
+ :  title={Distributed 
+ :                     attack detection scheme using deep learning approach for
+I'm skipping whatever remains of this entry
+(There were 3 error messages)

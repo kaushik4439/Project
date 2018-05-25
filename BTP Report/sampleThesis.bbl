@@ -1,0 +1,28 @@
+\begin{thebibliography}{}\setlength{\itemsep}{-1ex}\small
+
+\bibitem{notes} Minhaj Ahmad Khan. {\em A survey of security issues for cloud computing.} Bahauddin Zakariya University Multan,Pakistan.2016.
+
+\bibitem{notes} Yerneni Sushmitha, V Krishna Reddy, D Pavan Teja Reddy. {\em A survey on cloud computing security issues.} Department of Computer Sciences and Engineering, K L University, Andhra Pradesh, India.
+
+\bibitem{notes} S. Subashini , V. Kavitha. {\em A survey on security issues in service delivery models of cloud computing.} Anna University Tirunelveli, Tirunelveli, TN 627007, India.2010.
+
+\bibitem{notes} Saurabh Singh, Young-Sik Jeong, Jong Hyuk Park. {\em A survey on cloud computing security:Issues,threats,and solutions.}Department of Computer Science and Engineering, Seoul National University of Science and Technology.2016.
+
+
+\bibitem{notes} Yuntian Zhao, Youjun Wang, Hongqi Zhang, Chuanfu Zhang, Chao Yang. {\em Agent-based Network Security Simulator Nessi2.} Zhengzhou Information Science and Technology Institute, Zhengzhou 450000, China.2015.
+\bibitem{href} \href{http://www.nessi2.de/}
+\bibitem{href} \href{https://sourceforge.net/projects/nessi2/}
+
+\bibitem{notes} Abebe Abeshu Diro and Naveen Chilamkurti. {\em Deep Learning: The Frontier for Distributed Attack Detection in Fog-to-Things Computing.}Department of Computer Science and Engineering, Seoul National University of Science and Technology.IEEE.
+
+\bibitem{notes} Abebe Abeshu Diro, Naveen Chilamkurti. {\em Distributed attack detection scheme using deep learning approach for Internet of Things.}Department of Computer Science and IT, La Trobe University, Melbourne, Australia.
+
+\bibitem{notes} Rafal Kozik, Michal Choras {\em A scalable distributed machine learning approach for attack detectionin edge computing environments}.Department of Computer Science, University of Salerno, Fisciano (SA), Italy.2017.
+
+\bibitem{href} \href{http://scikit-learn.org/stable/}
+
+\bibitem{href} \href{https://keras.io/}
+\bibitem{href} \href{https://www.anaconda.com/distribution/}
+\bibitem{href} \href{https://github.com/defcom17/NSL\_KDD/}
+
+\end{thebibliography}
